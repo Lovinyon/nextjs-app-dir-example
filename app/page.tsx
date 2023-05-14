@@ -1,6 +1,9 @@
+import { Badge } from "./common/components";
+
 export default function Home() {
   return (
     <div>
+      <Badge>default</Badge>
       <h1>新着記事</h1>
       <ul>
         <li>記事1</li>
